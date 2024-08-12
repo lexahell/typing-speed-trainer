@@ -14,7 +14,7 @@ function App() {
         <div className='text-slate-500 max-w-5xl'>
           {status !== 'end' && (
             <>
-              <Countdown seconds={3} />
+              <Countdown seconds={30} />
               <Words />
             </>
           )}
