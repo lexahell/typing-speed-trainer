@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 const Caret = ({ side }: { side: 'left' | 'right' }) => {
   const CaretClass = classNames({
-    'inline-block bg-primary-500 w-0.5 h-8 rounded absolute top-1': true,
+    'inline-block bg-primary-500 w-0.5 h-5 sm:h-8 rounded absolute top-1': true,
     'left-0': side === 'left',
     'right-0': side === 'right',
   });
